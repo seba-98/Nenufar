@@ -1,0 +1,68 @@
+
+
+.item1, .item4{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+}
+.car-content{
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  background-color: #ffff;
+  background-color: rgba(255,255,255,0.5);
+
+  h2{
+    font-size: 20px;
+  }
+    a{
+      margin-left: 0rem;
+      padding: 7px;
+      display: block;
+      text-align: center;
+      color: white !important;
+      border: 1px solid gray;
+      background-color: rgb(44, 43, 43);
+      width: 10rem;
+    }
+}
+
+
+.carrusel2{
+  bottom: 7rem;
+  margin-bottom: -7rem;
+}
+
+
+
+
+
+@each $item in item1, item2, item3{
+  
+    .#{$item}{
+     
+      height: 90vh;
+      background-image:url(../carousel_images/#{$item}.jpg);
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+      
+      display: block;
+    }
+    }
+
+
+    @each $item in item4, item5, item6{
+  
+      .#{$item}{
+        height: 70vh;
+        background-image:url(../carousel_images/#{$item}.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        
+        display: block;
+      }
+      }
+
+    

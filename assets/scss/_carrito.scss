@@ -1,0 +1,140 @@
+.cart{
+    width: 60px;
+    height: 60px;
+    border: 2px solid rgb(153, 152, 152);
+    border-radius: 50%;
+    transition: all 0.2s;
+
+    background-image:url(../iconos/cart.png);
+    background-position: center;
+    background-size: cover;
+    
+
+    &:hover{
+        border: 3px solid rgb(68, 68, 68);
+  }
+}
+
+
+.li-carrito{
+    
+    
+    #noti{
+        display: none;
+        text-align: center;
+        background-color: rgb(156, 251, 13);
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        padding: 3px;
+        font-weight: bold;
+    }
+
+   
+    #car-items{
+        overflow-y:scroll !important;
+        display: none;
+        flex-direction: column;
+        font-size: 15px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        width: 100%;
+        max-height: 50vh;
+        padding: 10px;
+        box-shadow: 0px 0px 15px black;
+        top: 14rem;
+        right: 0rem;
+
+        #precioTotal{
+            padding: 5px 0 0 0  !important;
+
+            #price{
+                color: rgb(112, 163, 36);
+            }
+        }
+
+        li{
+            max-width: 100%;
+            padding: 5px;
+            border-top: 2px solid rgb(238, 236, 236);
+            border-bottom: 2px solid rgb(238, 236, 236);
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+           
+            .quitarCantidad{
+                padding: 10px !important;
+                display: flex;
+                align-items: center;
+                height: 45px !important;
+                border-radius: 6% !important;
+                border: none;
+                background-color: rgb(211, 93, 93);
+                color: rgb(255, 255, 255);
+                font-size: 10px !important;
+                font-weight: bold;
+              }
+
+              .aumentarCantidad{
+                position: initial !important;
+                display: flex;
+                align-items: center;
+                height: 45px !important;
+                border-radius: 6% !important;
+                border: none;
+                background-color: rgb(123, 228, 74);
+                color: rgb(255, 255, 255);
+                font-size: 20px !important;
+                font-weight: bold;
+              }
+
+
+            div{
+                display: flex !important;
+                flex-wrap: nowrap;
+                flex-direction: row !important;
+                width:200px;
+
+                .verCantidad{
+                    border: 1px solid rgb(167, 166, 166);
+                    border-radius: 2px;
+                    max-height: 45px;
+                }  
+            }  
+
+            span{
+                padding: 10px;
+            }
+
+            .borrarCarrito{
+                border: none;
+                background-color: rgb(211, 93, 93);
+                color: rgb(255, 255, 255);
+                max-width: 20%;
+                border-radius: 3px;
+    
+                .comprarBTN{
+                    max-width: 35%;
+                }
+                }
+
+
+        }
+
+        h3{
+            font-size: 20px !important;
+        }
+
+
+        
+            
+            
+
+        
+
+        
+
+    }
+}

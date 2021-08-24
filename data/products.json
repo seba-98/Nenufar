@@ -1,0 +1,63 @@
+[
+   { 
+    "producto": "rojo", 
+    "stock":50, 
+    "id":111, 
+    "precio": "precioCollares", 
+    "nombreImg":"imageRojo", 
+    "tipo":"collares", 
+    "cantidad":1
+    },
+
+    { 
+    "producto": "azul", 
+    "stock":50, 
+    "id":112, 
+    "precio": "precioCollares", 
+    "nombreImg":"imageAzul", 
+    "tipo":"collares", 
+    "cantidad":1
+    },
+
+    { 
+    "producto": "violeta", 
+    "stock":50, 
+    "id":113, 
+    "precio": "precioCollares", 
+    "nombreImg":"imageVioleta", 
+    "tipo":"collares", 
+    "cantidad":1
+    },
+
+
+
+    { 
+    "producto": "vainilla", 
+    "stock":50, 
+    "id":211, 
+    "precio": "precioVelas", 
+    "nombreImg":"imageVainilla", 
+    "tipo":"velas", 
+    "cantidad":1
+    },
+
+    { 
+    "producto": "lavanda", 
+    "stock":50, 
+    "id":212, 
+    "precio": "precioVelas", 
+    "nombreImg":"imageLavanda", 
+    "tipo":"velas", 
+    "cantidad":1
+    },
+
+    { 
+    "producto": "jazmin", 
+    "stock":50, 
+    "id":213, 
+    "precio": "precioVelas", 
+    "nombreImg":"imageJazmin", 
+    "tipo":"velas", 
+    "cantidad":1
+    }
+]

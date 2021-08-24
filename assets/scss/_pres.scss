@@ -1,0 +1,22 @@
+/*configuracion de la PRESENTACION*/
+@import "mixins.scss";
+
+
+
+h1{
+    padding-top: 0rem !important;
+}
+
+.pres-p{
+    font-size: 1.4rem;
+    font-weight: bold;
+    @include bg($fondo:"transparente")
+}/*El mixin bg, se encarga de adaptar el texto y el fondo en base al tipo de fondo que se elija, las opciones son fondo negro, blanco o transparente*/
+
+
+
+
+.index__h1{
+    padding-top: 13rem !important;
+}
+/*FIN configuracion de la PRESENTACION*/

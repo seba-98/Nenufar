@@ -1,0 +1,17 @@
+
+#alerta{
+    position: fixed;
+    top: 20rem;
+    display: block;
+    padding: 3rem;
+
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    display: none;
+    z-index: 1 !important;
+
+    border-radius: 10px;
+
+}

@@ -1,0 +1,22 @@
+/*DESCRIPCION*/
+@import "mixins.scss";
+
+
+
+.desc{
+  div{
+    img{
+      border-radius: 25px;
+    }
+  }
+}
+
+.nos{
+  display: grid;
+  place-items: center;
+}
+
+
+
+
+ /*FIN DESCRIPCION*/

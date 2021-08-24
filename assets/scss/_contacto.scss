@@ -1,0 +1,52 @@
+
+.contact-desc{
+    text-align: center;
+}
+
+
+.contacto-icons{
+    list-style: none !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+        li{
+            color: black ;
+            font-weight: bold ;
+
+            
+        }
+    
+}
+.contacto{
+    div{
+        img{
+            max-width: 500px;
+
+        }
+    }
+}
+
+
+
+@media(min-width:987px)and (max-width:1352px){
+
+    .contacto{
+        div{
+            img{
+                max-width: 350px;
+    
+            }
+        }
+    }
+
+}
+
+@media(max-width:990px){
+
+    .contact-img, .nos-img{
+        display: none;
+    }
+
+}
+

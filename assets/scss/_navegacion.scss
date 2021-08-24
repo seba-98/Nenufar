@@ -1,0 +1,115 @@
+
+
+.header-compras{
+    max-height: 90px !important;
+
+    .content-header{
+        display: flex !important;
+        align-content: center !important;
+        max-height: 90px;
+        margin-bottom: 20px !important;
+        nav{
+            ul{
+                width: 75% ;
+                display: flex;
+                justify-content: center;
+                li{
+                   
+                    a{
+                    display: flex !important;
+                    flex-direction: row !important;
+                    flex-wrap: nowrap !important;
+
+                    width: 25% !important;
+                    justify-content: center;
+                    align-items: center !important;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+
+.carrito{
+    position: relative;
+    width: 70px ;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.carri{
+    border-radius: 5%;
+    padding: 3px;
+
+    transition: all 1s;
+    &:hover{
+        background-color: rgb(157, 182, 124);
+    }
+    cursor: pointer;
+}
+
+
+
+.header--bg{
+
+    background-color: rgb(138,145,129) ;
+    background-color: rgba(138,145,129, 0.0) ;
+    z-index: 3;
+    position: fixed;
+
+}
+.margin{
+    padding-top: 2rem;
+}
+
+
+/*CONFIGURACION BARRA DE NAVEGACION*/
+
+
+
+nav{
+    max-height: 90px !important;
+    .navbar-nav{
+        background-color: rgb(138,145,129) !important;
+        background-color: rgba(138,145,129, 0.5) !important;
+        width: 100%;
+       
+        li{
+            max-width: 100%;
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+
+            .nav-link{
+            font-size: 1.2rem;
+            color:rgb(226, 226, 226) !important;
+            text-shadow: 3px 3px 3px  rgb(32, 32, 32);
+            text-transform: uppercase;
+            text-decoration: none;
+            background-image: linear-gradient(white, white);
+            background-position: 0% 100%;
+            background-repeat: no-repeat;
+            background-size: 0% 2px;
+            transition: all 0.4s;
+            }
+
+            .nav-link:hover{
+                background-size: 100% 2px;
+                color: rgb(75, 75, 75) !important;
+                font-weight: bold;
+                text-shadow: none;
+
+            }
+
+            .nav-link:focus{
+                background-size: 100% 2px;
+            }
+        }
+    } 
+} 
+
+
+
+/*FIN CONFIGURACION BARRA DE NAVEGACION*/

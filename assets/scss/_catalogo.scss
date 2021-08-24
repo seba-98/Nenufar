@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.catalogo{
+    display: flex !important;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(236, 234, 234);
+    
+    .filtros{
+        background-color: rgb(255, 255, 255);
+        width: 100% ;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        justify-items: center;
+        padding: 2rem 0 2rem 0;
+        border-top: 2px solid rgb(218, 218, 218);
+        border-bottom:2px solid rgb(218, 218, 218);
+
+        
+
+        .options{
+            display: flex;
+            color: white !important;
+            border: 1px solid gray;
+            background-color: rgb(44, 43, 43);
+            border-radius: 4%;
+            width: auto;
+            
+            padding: 9px;
+            font-size: 13px;
+
+            justify-content: center;
+            align-items: center;
+            
+            transition: 0.5s;
+            &:hover{
+                transform: rotateY(360deg);
+                box-shadow: 0px 0px 15px red;
+            }
+          }
+        }
+
+
+
+
+    
+
+    div{
+
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        
+        article{
+            background-color: rgb(255, 255, 255);
+            width: 28rem;
+            margin: 15px 20px 15px 20px;
+            display: grid;
+            place-items: center;
+            border-top-right-radius: 5px ;
+            border-top-left-radius: 5px ;
+            box-shadow: 0px 0px 20px  rgb(82, 82, 82);
+            transition: all .25s;
+
+
+            &:hover{
+                width: 28.2rem;
+                box-shadow: 0px 0px 20px  rgb(32, 241, 0);
+            }
+            
+            img{
+                width: 100%;
+                border-top-right-radius: 5px ;
+                border-top-left-radius: 5px ;
+            }
+            
+
+            span{
+                font-family: 'Roboto', sans-serif;
+            }
+            
+            .titleCard{
+                font-size: 22px;
+                font-weight: bold;
+                color: black;
+                
+            }
+            .priceCard{
+                font-weight: bold;
+                font-size: 20px;
+                color: rgb(0, 0, 0);
+            }
+            .stockCard{
+                font-size: 17px;
+                color: rgb(104, 104, 104);
+            }
+            
+            button{
+                color: white !important;
+                border: 1px solid gray;
+                background-color: rgb(66, 66, 66);
+                padding: 10px;
+                border-radius: 3px;
+
+                transition: all 0.3s;
+
+                &:hover{
+                    background-color: rgb(126, 236, 112);
+                    font-weight: bold;
+                    border: none;
+                }
+                
+            }
+            padding-bottom: 2rem;
+
+        
+            
+        }
+    }
+}
+

@@ -1,0 +1,317 @@
+/*-----------------------------------------------RESPONSIVE DESING-------------------------------------------------------------*/
+
+
+
+
+
+
+
+@media(min-width:500px){
+    
+    .desc__div{
+    
+      p{
+        font-size: 1.2rem;
+        padding: 3rem;
+    }
+  }   
+}
+
+
+
+@media(min-width:600px){
+
+
+  .foot__h3{
+    font-size: 5rem !important;
+  }
+
+  .footer__p{
+    font-size: 1.8rem !important;
+  }
+
+  .mapa{
+    padding-top: 0rem;
+  }
+
+
+  p{
+    font-size: 1.3rem;
+    padding: 4rem;
+  }
+
+  
+  .foot-img{
+        img{
+        width: 5rem;
+      }
+  } 
+
+
+    header{
+        position: fixed;
+    }
+    h1{
+        padding-top: 6rem;
+        font-size: 4rem !important;
+        font-style: italic;
+        color: rgb(92, 92, 92);
+    }
+
+
+.desc__div{
+  p{
+    font-size: 2rem;
+    padding: 4rem;
+  }
+} 
+
+
+h3{
+  font-size: 4rem !important;
+} 
+
+
+.pres-p{
+  font-size: 2.5rem;
+}
+
+.pres{
+  padding: 10rem 0 10rem;
+}
+
+.logo-a {
+  font-size: 55px !important;
+}
+.logo-img{
+  width: 120px;
+  border-radius: 50%;
+}
+
+
+.borders {
+li{
+  a{
+    font-size: 1.4rem;
+  }
+  }
+ }
+
+}
+
+
+
+@media(min-width:780px){
+
+
+
+  .li-carrito{
+    display: flex;
+    width: 30%;
+    
+    
+    #car-items{
+
+        font-size: 20px !important;
+        padding: 40px !important;
+        top: 8rem !important;
+        right: 0rem;
+        height: 100vh !important;
+        width: 100% !important;
+        overflow-y:scroll !important;
+
+        li{
+            max-width: 100% !important;
+            padding: 10px;
+            border-top: 2px solid rgb(238, 236, 236);
+            border-bottom: 2px solid rgb(238, 236, 236);
+            display: flex;
+            flex-direction: row;
+
+            span{
+                padding: 10px !important;
+            }
+
+            .quitarCantidad{
+              position: initial !important;
+              display: flex;
+              align-items: center;
+              height: 45px !important;
+              border-radius: 6% !important;
+              border: none;
+              background-color: rgb(211, 93, 93);
+              color: rgb(255, 255, 255);
+              font-size: 20px !important;
+              font-weight: bold;
+            }
+
+            
+        }
+        h3{
+            font-size: 30px !important;
+        }
+    }
+}
+
+
+  .content-header{
+    
+      nav{
+          ul{
+              width: 45% !important;
+
+          }
+        }
+      }
+    
+
+  .buscador{
+    position: initial;
+    z-index: 1;
+    top: 0rem;
+    background-color: white;
+    width: 40rem !important;
+    padding: 4rem !important;
+    
+    display: flex;
+    justify-content: center;
+    background-color: #ffff;
+    background-color: rgba(255,255,255,0.5);
+
+
+
+    button{
+      padding: 7px !important;
+      display: block;
+      text-align: center;
+      color: white !important;
+      border: 1px solid gray;
+      background-color: rgb(44, 43, 43);
+      width: 10rem !important;
+    }
+
+}
+
+  
+
+    .logoContainer{
+
+        display: flex !important;
+        align-items: center;
+        width: 20%;
+
+       
+    }
+  
+
+  .car-content{
+    padding: 6rem;
+    h2{
+      font-size: 40px !important;
+    }
+    a{
+      margin-left: 5rem !important;
+    }
+  }
+
+
+  .presentacion--pt{
+    padding-top: 5.6rem !important;
+  }
+
+  .footer__p{
+    font-size: 1.4rem !important;
+    padding-left: 0 !important;
+  }
+
+  
+
+  .desc__div{
+      p{
+        font-size: 2.2rem;
+        padding: 8rem;
+      }
+    } 
+
+
+    .filtros{
+
+      .options{
+        font-size: 22px !important;
+      }
+
+    }
+}
+
+
+
+@media(min-width:780px) and (max-width:991px){
+
+  .li-carrito{
+    
+    
+    
+    #car-items{
+    position: absolute;
+    top: 15rem;
+    left: 10rem;
+    width: 600px !important;
+  
+  }
+}
+
+}
+
+
+
+/*Esta configuracion es para evitar que en esos margenes de resolucion el texto de las cards que muy angosto*/
+@media(min-width:979px) and (max-width:1271px){
+
+
+  section{
+
+  div{
+
+    article{
+       
+      //padding: 1rem !important;
+      div{
+        //padding: 1rem !important;
+        p{
+          font-size: 1rem;
+          //padding: 1rem !important;
+        }
+      }
+    }
+  }  
+  }
+
+}
+
+@media(min-width:982px){
+
+  
+  .logoContainer{
+
+    img{
+    width: 90px !important;
+    border-radius: 50%;
+}
+
+   
+}
+
+  
+
+  nav{
+    .navbar-nav{
+        background-color: rgb(138,145,129) !important;
+        background-color: rgba(138,145,129, 0.0) !important;
+
+    }
+  }
+}
+
+
+
+/*-----------------------------------------------FIN RESPONSIVE DESING-------------------------------------------------------------*/

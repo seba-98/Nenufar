@@ -1,0 +1,31 @@
+
+/*El mixin bg, se encarga de adaptar el color de texto y el color de fondo en base al tipo de fondo que se elija,
+ las opciones son fondo negro, blanco o transparente pasandole uno de esos 3 valores correspondientes
+  se evalua en la condicion y se le asignan los estilos adecuados.
+*/
+
+
+
+@mixin bg($fondo) {
+    
+    $blanco:white;
+    $negro:black;
+    $transparente:transparent;
+
+
+    @if $fondo== "blanco"{
+        background-color: $blanco;
+        color: rgb(0, 0, 0);
+    }
+    @else if $fondo== "negro"{
+        background-color: $negro;
+        color: white;
+    }
+    @else if $fondo== "transparente"{
+        background-color: $transparente;
+        color: white;
+        text-shadow: 3px  3px 2px black;
+    }
+
+}
+

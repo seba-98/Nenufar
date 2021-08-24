@@ -1,0 +1,30 @@
+/*CONFIGURACION DEL LOGO*/
+
+
+
+/*logo SECCION index*/
+.logoContainer{
+    width: 50%;
+    display: flex !important;
+    align-items: center;
+    text-decoration: none !important;
+    img{
+        width: 70px !important;
+        border-radius: 50%;
+
+    }
+
+}
+/*fin logo SECCION index*/
+
+
+.header__navegacion__logo__a--font {
+    font-style: italic;
+    font-size: 2rem !important;
+    font-weight: bold;
+    color: rgb(255, 255, 255) !important;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    width: 200px !important;
+}
+
+/*FINCONFIGURACION DEL LOGO*/

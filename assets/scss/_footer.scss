@@ -1,0 +1,97 @@
+@import "mixins.scss";
+
+
+footer{
+
+  div{
+
+    div{
+
+      div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+      }
+    }
+
+  }
+
+  
+  .footer__ul{
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.4rem;
+    list-style: none !important;
+  }
+  
+  .foot__h3{
+    font-size: 1.5rem !important;
+    text-align: center;
+  }
+  .footer__p{
+    font-size: 2rem !important;
+  }
+
+
+
+ @include bg($fondo:"negro");
+}
+
+
+.foot--border{
+  border-bottom: 1px solid white;
+}
+
+
+
+
+.sitemap--font{
+  font-size: 1.5rem !important;
+}
+
+
+
+.borders {
+  
+    li{
+      border-left: 1px solid white;
+      border-right: 1px solid white;
+      display: flex;
+      height: 1.8rem;
+      justify-content: center;
+      align-items: center;
+      a{
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        background-image: linear-gradient(red, red);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s;
+
+        &:hover{
+          background-size: 100% 2px;
+        }
+      }
+    }
+  
+}
+
+
+
+@each $icono in whatsapp, facebook, instagram{
+  
+  .#{$icono}{
+    margin-left: 5px;
+    background-image:url(../iconos_redes_sociales/#{$icono}.jpg);
+    background-position: center;
+    width: 2rem;
+    height: 2rem;
+    background-size: cover;
+    border-radius: 25%;
+    display: block;
+  }
+
+}
+

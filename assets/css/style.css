@@ -1,0 +1,703 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+html {
+  padding: 0%;
+  margin: 0%; }
+
+.header-compras {
+  max-height: 90px !important; }
+  .header-compras .content-header {
+    display: flex !important;
+    align-content: center !important;
+    max-height: 90px;
+    margin-bottom: 20px !important; }
+    .header-compras .content-header nav ul {
+      width: 75%;
+      display: flex;
+      justify-content: center; }
+      .header-compras .content-header nav ul li a {
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        width: 25% !important;
+        justify-content: center;
+        align-items: center !important; }
+
+.carrito {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%; }
+
+.carri {
+  border-radius: 5%;
+  padding: 3px;
+  transition: all 1s;
+  cursor: pointer; }
+  .carri:hover {
+    background-color: #9db67c; }
+
+.header--bg {
+  background-color: #8a9181;
+  background-color: rgba(138, 145, 129, 0);
+  z-index: 3;
+  position: fixed; }
+
+.margin {
+  padding-top: 2rem; }
+
+/*CONFIGURACION BARRA DE NAVEGACION*/
+nav {
+  max-height: 90px !important; }
+  nav .navbar-nav {
+    background-color: #8a9181 !important;
+    background-color: rgba(138, 145, 129, 0.5) !important;
+    width: 100%; }
+    nav .navbar-nav li {
+      max-width: 100%;
+      display: flex;
+      flex-direction: row;
+      list-style: none; }
+      nav .navbar-nav li .nav-link {
+        font-size: 1.2rem;
+        color: #e2e2e2 !important;
+        text-shadow: 3px 3px 3px #202020;
+        text-transform: uppercase;
+        text-decoration: none;
+        background-image: linear-gradient(white, white);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: all 0.4s; }
+      nav .navbar-nav li .nav-link:hover {
+        background-size: 100% 2px;
+        color: #4b4b4b !important;
+        font-weight: bold;
+        text-shadow: none; }
+      nav .navbar-nav li .nav-link:focus {
+        background-size: 100% 2px; }
+
+/*FIN CONFIGURACION BARRA DE NAVEGACION*/
+/*CONFIGURACION DEL LOGO*/
+/*logo SECCION index*/
+.logoContainer {
+  width: 50%;
+  display: flex !important;
+  align-items: center;
+  text-decoration: none !important; }
+  .logoContainer img {
+    width: 70px !important;
+    border-radius: 50%; }
+
+/*fin logo SECCION index*/
+.header__navegacion__logo__a--font {
+  font-style: italic;
+  font-size: 2rem !important;
+  font-weight: bold;
+  color: white !important;
+  text-shadow: 2px 2px 2px black;
+  width: 200px !important; }
+
+/*FINCONFIGURACION DEL LOGO*/
+/*configuracion de la PRESENTACION*/
+/*El mixin bg, se encarga de adaptar el color de texto y el color de fondo en base al tipo de fondo que se elija,
+ las opciones son fondo negro, blanco o transparente pasandole uno de esos 3 valores correspondientes
+  se evalua en la condicion y se le asignan los estilos adecuados.
+*/
+h1 {
+  padding-top: 0rem !important; }
+
+.pres-p {
+  font-size: 1.4rem;
+  font-weight: bold;
+  background-color: transparent;
+  color: white;
+  text-shadow: 3px  3px 2px black; }
+
+/*El mixin bg, se encarga de adaptar el texto y el fondo en base al tipo de fondo que se elija, las opciones son fondo negro, blanco o transparente*/
+.index__h1 {
+  padding-top: 13rem !important; }
+
+/*FIN configuracion de la PRESENTACION*/
+/*DESCRIPCION*/
+/*El mixin bg, se encarga de adaptar el color de texto y el color de fondo en base al tipo de fondo que se elija,
+ las opciones son fondo negro, blanco o transparente pasandole uno de esos 3 valores correspondientes
+  se evalua en la condicion y se le asignan los estilos adecuados.
+*/
+.desc div img {
+  border-radius: 25px; }
+
+.nos {
+  display: grid;
+  place-items: center; }
+
+/*FIN DESCRIPCION*/
+.article--m {
+  margin: 10rem 0 0rem;
+  background-color: white;
+  color: black;
+  /*El mixin bg, se encarga de adaptar el texto y el fondo en base al tipo de fondo que se elija, las opciones son fondo negro, blanco o transparente*/ }
+  .article--m div article p {
+    text-align: center; }
+  .article--m div article h5 {
+    text-align: center; }
+
+.article__btns {
+  margin: 1.8rem 0 1.8rem 0 !important; }
+
+.detalle {
+  background-color: transparent !important; }
+  .detalle h3 {
+    color: white;
+    text-shadow: 2px 2px 3px black; }
+
+/*El mixin bg, se encarga de adaptar el color de texto y el color de fondo en base al tipo de fondo que se elija,
+ las opciones son fondo negro, blanco o transparente pasandole uno de esos 3 valores correspondientes
+  se evalua en la condicion y se le asignan los estilos adecuados.
+*/
+footer {
+  background-color: black;
+  color: white; }
+  footer div div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important; }
+  footer .footer__ul {
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.4rem;
+    list-style: none !important; }
+  footer .foot__h3 {
+    font-size: 1.5rem !important;
+    text-align: center; }
+  footer .footer__p {
+    font-size: 2rem !important; }
+
+.foot--border {
+  border-bottom: 1px solid white; }
+
+.sitemap--font {
+  font-size: 1.5rem !important; }
+
+.borders li {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  display: flex;
+  height: 1.8rem;
+  justify-content: center;
+  align-items: center; }
+  .borders li a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(red, red);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s; }
+    .borders li a:hover {
+      background-size: 100% 2px; }
+
+.whatsapp {
+  margin-left: 5px;
+  background-image: url(../iconos_redes_sociales/whatsapp.jpg);
+  background-position: center;
+  width: 2rem;
+  height: 2rem;
+  background-size: cover;
+  border-radius: 25%;
+  display: block; }
+
+.facebook {
+  margin-left: 5px;
+  background-image: url(../iconos_redes_sociales/facebook.jpg);
+  background-position: center;
+  width: 2rem;
+  height: 2rem;
+  background-size: cover;
+  border-radius: 25%;
+  display: block; }
+
+.instagram {
+  margin-left: 5px;
+  background-image: url(../iconos_redes_sociales/instagram.jpg);
+  background-position: center;
+  width: 2rem;
+  height: 2rem;
+  background-size: cover;
+  border-radius: 25%;
+  display: block; }
+
+/*-----------------------------------------------RESPONSIVE DESING-------------------------------------------------------------*/
+@media (min-width: 500px) {
+  .desc__div p {
+    font-size: 1.2rem;
+    padding: 3rem; } }
+
+@media (min-width: 600px) {
+  .foot__h3 {
+    font-size: 5rem !important; }
+  .footer__p {
+    font-size: 1.8rem !important; }
+  .mapa {
+    padding-top: 0rem; }
+  p {
+    font-size: 1.3rem;
+    padding: 4rem; }
+  .foot-img img {
+    width: 5rem; }
+  header {
+    position: fixed; }
+  h1 {
+    padding-top: 6rem;
+    font-size: 4rem !important;
+    font-style: italic;
+    color: #5c5c5c; }
+  .desc__div p {
+    font-size: 2rem;
+    padding: 4rem; }
+  h3 {
+    font-size: 4rem !important; }
+  .pres-p {
+    font-size: 2.5rem; }
+  .pres {
+    padding: 10rem 0 10rem; }
+  .logo-a {
+    font-size: 55px !important; }
+  .logo-img {
+    width: 120px;
+    border-radius: 50%; }
+  .borders li a {
+    font-size: 1.4rem; } }
+
+@media (min-width: 780px) {
+  .li-carrito {
+    display: flex;
+    width: 30%; }
+    .li-carrito #car-items {
+      font-size: 20px !important;
+      padding: 40px !important;
+      top: 8rem !important;
+      right: 0rem;
+      height: 100vh !important;
+      width: 100% !important;
+      overflow-y: scroll !important; }
+      .li-carrito #car-items li {
+        max-width: 100% !important;
+        padding: 10px;
+        border-top: 2px solid #eeecec;
+        border-bottom: 2px solid #eeecec;
+        display: flex;
+        flex-direction: row; }
+        .li-carrito #car-items li span {
+          padding: 10px !important; }
+        .li-carrito #car-items li .quitarCantidad {
+          position: initial !important;
+          display: flex;
+          align-items: center;
+          height: 45px !important;
+          border-radius: 6% !important;
+          border: none;
+          background-color: #d35d5d;
+          color: white;
+          font-size: 20px !important;
+          font-weight: bold; }
+      .li-carrito #car-items h3 {
+        font-size: 30px !important; }
+  .content-header nav ul {
+    width: 45% !important; }
+  .buscador {
+    position: initial;
+    z-index: 1;
+    top: 0rem;
+    background-color: white;
+    width: 40rem !important;
+    padding: 4rem !important;
+    display: flex;
+    justify-content: center;
+    background-color: #ffff;
+    background-color: rgba(255, 255, 255, 0.5); }
+    .buscador button {
+      padding: 7px !important;
+      display: block;
+      text-align: center;
+      color: white !important;
+      border: 1px solid gray;
+      background-color: #2c2b2b;
+      width: 10rem !important; }
+  .logoContainer {
+    display: flex !important;
+    align-items: center;
+    width: 20%; }
+  .car-content {
+    padding: 6rem; }
+    .car-content h2 {
+      font-size: 40px !important; }
+    .car-content a {
+      margin-left: 5rem !important; }
+  .presentacion--pt {
+    padding-top: 5.6rem !important; }
+  .footer__p {
+    font-size: 1.4rem !important;
+    padding-left: 0 !important; }
+  .desc__div p {
+    font-size: 2.2rem;
+    padding: 8rem; }
+  .filtros .options {
+    font-size: 22px !important; } }
+
+@media (min-width: 780px) and (max-width: 991px) {
+  .li-carrito #car-items {
+    position: absolute;
+    top: 15rem;
+    left: 10rem;
+    width: 600px !important; } }
+
+/*Esta configuracion es para evitar que en esos margenes de resolucion el texto de las cards que muy angosto*/
+@media (min-width: 979px) and (max-width: 1271px) {
+  section div article div p {
+    font-size: 1rem; } }
+
+@media (min-width: 982px) {
+  .logoContainer img {
+    width: 90px !important;
+    border-radius: 50%; }
+  nav .navbar-nav {
+    background-color: #8a9181 !important;
+    background-color: rgba(138, 145, 129, 0) !important; } }
+
+/*-----------------------------------------------FIN RESPONSIVE DESING-------------------------------------------------------------*/
+.item1, .item4 {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center; }
+
+.car-content {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  background-color: #ffff;
+  background-color: rgba(255, 255, 255, 0.5); }
+  .car-content h2 {
+    font-size: 20px; }
+  .car-content a {
+    margin-left: 0rem;
+    padding: 7px;
+    display: block;
+    text-align: center;
+    color: white !important;
+    border: 1px solid gray;
+    background-color: #2c2b2b;
+    width: 10rem; }
+
+.carrusel2 {
+  bottom: 7rem;
+  margin-bottom: -7rem; }
+
+.item1 {
+  height: 90vh;
+  background-image: url(../carousel_images/item1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: block; }
+
+.item2 {
+  height: 90vh;
+  background-image: url(../carousel_images/item2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: block; }
+
+.item3 {
+  height: 90vh;
+  background-image: url(../carousel_images/item3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: block; }
+
+.item4 {
+  height: 70vh;
+  background-image: url(../carousel_images/item4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: block; }
+
+.item5 {
+  height: 70vh;
+  background-image: url(../carousel_images/item5.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: block; }
+
+.item6 {
+  height: 70vh;
+  background-image: url(../carousel_images/item6.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: block; }
+
+.divisor {
+  background-color: rgba(194, 194, 194, 0.5);
+  margin: 0; }
+  .divisor h2 {
+    margin: 0;
+    display: block;
+    color: #969696;
+    font-weight: normal;
+    padding: 10px 0 10px 0;
+    font-size: 20px;
+    text-align: center; }
+
+.contact-desc {
+  text-align: center; }
+
+.contacto-icons {
+  list-style: none !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .contacto-icons li {
+    color: black;
+    font-weight: bold; }
+
+.contacto div img {
+  max-width: 500px; }
+
+@media (min-width: 987px) and (max-width: 1352px) {
+  .contacto div img {
+    max-width: 350px; } }
+
+@media (max-width: 990px) {
+  .contact-img, .nos-img {
+    display: none; } }
+
+.separador {
+  padding: 0.5rem 0 5rem 0; }
+
+.buscador {
+  position: initial;
+  z-index: 1;
+  top: 0rem;
+  background-color: white;
+  width: 40rem;
+  padding: 2rem;
+  left: 0%;
+  display: flex;
+  justify-content: center;
+  background-color: #ffff;
+  background-color: rgba(255, 255, 255, 0.5); }
+  .buscador #inputBuscar {
+    width: 50% !important;
+    height: 40px !important; }
+  .buscador button {
+    padding: 3px;
+    display: block;
+    text-align: center;
+    color: white !important;
+    border: 1px solid gray;
+    background-color: #2c2b2b;
+    width: 4rem; }
+
+.catalogo {
+  display: flex !important;
+  flex-direction: column;
+  width: 100%;
+  background-color: #eceaea; }
+  .catalogo .filtros {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: center;
+    padding: 2rem 0 2rem 0;
+    border-top: 2px solid #dadada;
+    border-bottom: 2px solid #dadada; }
+    .catalogo .filtros .options {
+      display: flex;
+      color: white !important;
+      border: 1px solid gray;
+      background-color: #2c2b2b;
+      border-radius: 4%;
+      width: auto;
+      padding: 9px;
+      font-size: 13px;
+      justify-content: center;
+      align-items: center;
+      transition: 0.5s; }
+      .catalogo .filtros .options:hover {
+        transform: rotateY(360deg);
+        box-shadow: 0px 0px 15px red; }
+  .catalogo div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .catalogo div article {
+      background-color: white;
+      width: 28rem;
+      margin: 15px 20px 15px 20px;
+      display: grid;
+      place-items: center;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+      box-shadow: 0px 0px 20px #525252;
+      transition: all .25s;
+      padding-bottom: 2rem; }
+      .catalogo div article:hover {
+        width: 28.2rem;
+        box-shadow: 0px 0px 20px #20f100; }
+      .catalogo div article img {
+        width: 100%;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px; }
+      .catalogo div article span {
+        font-family: 'Roboto', sans-serif; }
+      .catalogo div article .titleCard {
+        font-size: 22px;
+        font-weight: bold;
+        color: black; }
+      .catalogo div article .priceCard {
+        font-weight: bold;
+        font-size: 20px;
+        color: black; }
+      .catalogo div article .stockCard {
+        font-size: 17px;
+        color: #686868; }
+      .catalogo div article button {
+        color: white !important;
+        border: 1px solid gray;
+        background-color: #424242;
+        padding: 10px;
+        border-radius: 3px;
+        transition: all 0.3s; }
+        .catalogo div article button:hover {
+          background-color: #7eec70;
+          font-weight: bold;
+          border: none; }
+
+.cart {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #999898;
+  border-radius: 50%;
+  transition: all 0.2s;
+  background-image: url(../iconos/cart.png);
+  background-position: center;
+  background-size: cover; }
+  .cart:hover {
+    border: 3px solid #444444; }
+
+.li-carrito #noti {
+  display: none;
+  text-align: center;
+  background-color: #9cfb0d;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 3px;
+  font-weight: bold; }
+
+.li-carrito #car-items {
+  overflow-y: scroll !important;
+  display: none;
+  flex-direction: column;
+  font-size: 15px;
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  max-height: 50vh;
+  padding: 10px;
+  box-shadow: 0px 0px 15px black;
+  top: 14rem;
+  right: 0rem; }
+  .li-carrito #car-items #precioTotal {
+    padding: 5px 0 0 0  !important; }
+    .li-carrito #car-items #precioTotal #price {
+      color: #70a324; }
+  .li-carrito #car-items li {
+    max-width: 100%;
+    padding: 5px;
+    border-top: 2px solid #eeecec;
+    border-bottom: 2px solid #eeecec;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .li-carrito #car-items li .quitarCantidad {
+      padding: 10px !important;
+      display: flex;
+      align-items: center;
+      height: 45px !important;
+      border-radius: 6% !important;
+      border: none;
+      background-color: #d35d5d;
+      color: white;
+      font-size: 10px !important;
+      font-weight: bold; }
+    .li-carrito #car-items li .aumentarCantidad {
+      position: initial !important;
+      display: flex;
+      align-items: center;
+      height: 45px !important;
+      border-radius: 6% !important;
+      border: none;
+      background-color: #7be44a;
+      color: white;
+      font-size: 20px !important;
+      font-weight: bold; }
+    .li-carrito #car-items li div {
+      display: flex !important;
+      flex-wrap: nowrap;
+      flex-direction: row !important;
+      width: 200px; }
+      .li-carrito #car-items li div .verCantidad {
+        border: 1px solid #a7a6a6;
+        border-radius: 2px;
+        max-height: 45px; }
+    .li-carrito #car-items li span {
+      padding: 10px; }
+    .li-carrito #car-items li .borrarCarrito {
+      border: none;
+      background-color: #d35d5d;
+      color: white;
+      max-width: 20%;
+      border-radius: 3px; }
+      .li-carrito #car-items li .borrarCarrito .comprarBTN {
+        max-width: 35%; }
+  .li-carrito #car-items h3 {
+    font-size: 20px !important; }
+
+.content-post-load {
+  display: none; }
+
+.content-pre-load {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#alerta {
+  position: fixed;
+  top: 20rem;
+  display: block;
+  padding: 3rem;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  display: none;
+  z-index: 1 !important;
+  border-radius: 10px; }
+
+.modalCompras {
+  display: grid;
+  place-items: center; }
